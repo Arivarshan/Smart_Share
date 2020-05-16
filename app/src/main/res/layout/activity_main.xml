@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/edt"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Share quikely"
+        android:padding="10sp"
+        />
+    <Button
+        android:id="@+id/btn_crt"
+        android:layout_below="@+id/edt"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create group"
+        android:layout_margin="50dp"
+        android:padding="10sp"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/btn_jn"
+        android:layout_below="@+id/btn_crt"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Join group"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:padding="10sp"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
